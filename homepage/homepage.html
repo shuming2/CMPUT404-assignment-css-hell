@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Shuming Zhang</title>
+		<title>Shuming Zhang's Homepage</title>
         <style>
-      	body {
+      		body {
         		background-color: #2E2E2E;
 				margin: 0;
         	}
@@ -15,15 +15,13 @@
 				font-family: "Trebuchet MS", sans-serif;
 				font-size: 50px;
 
-
-
-				background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#FFCC80));
+				background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#FFCC80));
   				-webkit-background-clip: text;
   				-webkit-text-fill-color: transparent;
 			}
 
         
-			div.page {
+			div.page1 {
 				margin: 1em 5em 1em 5em;
 				box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -31,7 +29,7 @@
 
         	div.header {
         		height:15em;
-        		background: radial-gradient(closest-side at 40% 55%, #029CC2, #029CC2, #0285B1, #006599, #006599);
+        		background: radial-gradient(closest-side at 40% 50%, #029CC2, #029CC2, #0285B1, #006599, #006599);
         	}
         	
         	div.wood {
@@ -39,24 +37,102 @@
 				background-image: url("http://bgfons.com/upload/wood%20_texture3177.jpg");
 				background-size: 100% 100%;
 				box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
         	}
+
+			ul.header {
+				list-style-type: none;
+				margin: 0;
+				overflow: hidden;
+				background: linear-gradient(#383437, #575B60);
+				padding: 0 0 0 10em;
+
+			}
+
+			ul.header li {
+				float: left;
+				width: auto;
+				text-align: center;
+				font-family: "Times New Roman", serif;
+				font-size: 1.2em;
+				font-weight: bold;
+				color: white;
+			}
+
+			ul.header li.right {
+				float: right;
+				padding: 10px 5em 10px 10px;
+			}
+
+			ul.header li a{
+				display: block;
+				text-decoration: none;
+				color: white;
+				padding: 10px 10px;
+			}
+			ul.header li a:hover:not(.active) {
+    			background-color: #383437;
+			}
+
+			ul.header li a.active {
+    			color: #1B7EBA;
+			}
+
+			div.blueline {
+				background-color: #1B7EBA;
+				height: 5px;
+			}
+
+			div.page2 {
+				background-color: white;
+				height: 1000px;
+				padding:20px;
+			}
+
+			div.page3 {
+				width: 75%
+			}
+
+			div.sidebar {
+				margin-left: 100%;
+				margin-right: 5em;
+				list-style-type: none;
+				padding: 10px;
+				width: 30%;
+				background-color: #f1f1f1;
+				position: relative;
+				height: 300px;
+				overflow: auto;
+			}
         	
         
         </style>
 	</head>
 
 	<body>
-		<div class="page">
-					<div class="header">
-						<div class="wood"></div>
-
-						
-						<h1>
-							<span></span>Shuming<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspZhang
-						</h1>
+		<div class="page1">
+			<div class="header">
+				<div class="wood"></div>
+				<h1>
+					Shuming<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspZhang
+				</h1>
+			</div>
+			<ul class="header">
+				<li><a class="active" href="#home">Home</a></li>
+				<li><a href="#mycat">My Cat</a></li>
+				<li><a href="#whoIam">Who I Am</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li class="right">(111)111-1111</li>
+			</ul>
+			<div class="blueline">&nbsp</div>
+			<div class="page2">
+				<div class="page3">
+					<div class="sidebar">
+						<h2>Points</h2>
 					</div>
 
+				</div>
+
+			</div>
 
         
 
@@ -64,3 +140,4 @@
 
 
 	</body>
+</html>
