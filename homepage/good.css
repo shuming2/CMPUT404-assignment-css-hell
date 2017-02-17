@@ -1,0 +1,214 @@
+body {
+	background-color: #2E2E2E;
+	margin: 0;
+	font-family: Georgia, serif;
+}
+
+h1.header {
+	display: block;
+	position:relative;
+	top: 14%;
+	left: 20%;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 50px;
+	line-height: 0.6em;
+	height: 2.5em;
+	padding:10px;
+
+	background: -webkit-linear-gradient(top, #fff, #FFCC80);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+font.bigger {
+	font-size: 80px;
+}
+
+div.page1 {
+	margin: 1em 5em 1em 5em;
+	box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.header {
+	height: 25em;
+	background: radial-gradient(closest-side at 50% 50%, #029CC2, #029CC2, #0285B1, #006599, #006599);
+}
+
+div.wood {
+	height: 2.5em;
+	background-image: url("http://bgfons.com/upload/wood%20_texture3177.jpg");
+	background-size: 100% 100%;
+	box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul.header {
+	display: block;
+	list-style-type: none;
+	position: relative;
+	margin-top: 130px;
+	overflow: hidden;
+	background: linear-gradient(#383437, #575B60);
+	padding: 0 0 0 10em;
+	box-shadow: 0 8px 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul.header li {
+	float: left;
+	width: auto;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	text-shadow: 2px 2px 2px #212121;
+}
+
+ul.header li.right {
+	float: right;
+	padding: 10px 5em 10px 10px;
+}
+
+ul.header li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+}
+
+ul.header li a:hover:not(.active) {
+	background-color: #383437;
+}
+
+ul.header li a.active {
+	color: #1B7EBA;
+}
+
+div.page2 {
+	background-color: white;
+	padding: 20px;
+	overflow:hidden;
+}
+
+div.page3 {
+	width: 70%;
+	position:relative;
+	float: left
+}
+
+div.rightsection {
+	position: relative;
+	float: right;
+	width: 25%;
+	padding: 5px;
+}
+
+div.sidebar {
+	padding: 10px;
+	background-color: #f1f1f1;
+	border-radius: 4px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 40px;
+	margin:10px 0;
+}
+	
+p {
+	line-height: 1.5em;
+}
+
+h2.sidebar {
+	text-align: center;
+}
+
+h3.sidebar {
+	margin: 30px 8px 8px 8px;
+	text-align: center;
+	color: #2994BE;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+p.sidebar {
+	padding: 0px 8px;
+	text-align: center;
+}
+
+a.sidebar {
+	display: block;
+	text-align: center;
+	margin:30px auto;
+	color: #2994BE;
+	font-style: italic;
+	width:6em;
+}
+
+img {
+	margin: 10px;
+	width: 30%;
+	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 4px 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.section {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+div.left {
+	width: 65%;
+	float: left;
+}
+
+div.right {
+	width: 65%;
+	float: right;
+}
+
+ul.footer {
+	display: block;
+	list-style-type: none;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-left: 30%;
+
+}
+
+ul.footer li {
+	float: left;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	text-shadow: 2px 2px 2px #212121;
+}
+
+ul.footer li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+}
+
+img.subscribe {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+
+}
+a.subscribe {
+	text-decoration: none;
+}
+
+div.subscribe {
+	margin:10px 0;
+	padding: 10px;
+	border-radius: 4px;
+	border: 2px solid #FFE0B2;
+}
+
+p.subscribe {
+	text-align: center;
+	text-decoration: none;
+	color: #A66C14;
+	text-shadow: 2px 2px 2px #F9B54F;
+	font-weight: 500;
+	margin-bottom: 0;
+}
