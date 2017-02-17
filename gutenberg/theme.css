@@ -15,11 +15,11 @@
 */
 
 body {
-    margin:5%;
+    margin: 5%;
     background: url("http://www.imageif.com/images/white-parchment-paper-background-white-parchment-paper.jpg");
     background-attachment: fixed;
     background-size: 100% 100%;
-    text-align:justify;
+    text-align: justify;
 	color: #3E2723;
 }
 
