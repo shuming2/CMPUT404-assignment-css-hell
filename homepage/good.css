@@ -49,7 +49,7 @@ ul.header {
 	overflow: hidden;
 	background: linear-gradient(#383437, #575B60);
 	padding: 0 0 0 10em;
-	box-shadow: 0 8px 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 ul.header li {
@@ -144,8 +144,11 @@ a.sidebar {
 
 img {
 	margin: 10px;
-	width: 30%;
+	width: 25%;
 	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 4px 4px 8px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 8px;
+	filter: grayscale(20%);
+
 }
 
 div.section {
@@ -156,11 +159,13 @@ div.section {
 div.left {
 	width: 65%;
 	float: left;
+	padding: 20px 5px;
 }
 
 div.right {
 	width: 65%;
 	float: right;
+	padding: 20px 5px;
 }
 
 ul.footer {
