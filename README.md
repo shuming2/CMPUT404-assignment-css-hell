@@ -21,4 +21,14 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-Background Image: http://www.imageif.com/images/white-parchment-paper-background-white-parchment-paper.jpg
+References
+==================
+
+https://www.w3schools.com/
+https://material.io/guidelines/style/color.html
+
+Images Source
+=================
+
+Glutenberg Background
+http://www.imageif.com/images/white-parchment-paper-background-white-parchment-paper.jpg
