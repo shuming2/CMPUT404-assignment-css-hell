@@ -25,6 +25,7 @@ References
 ==================
 
 https://www.w3schools.com/
+
 https://material.io/guidelines/style/color.html
 
 Images Source
@@ -32,3 +33,9 @@ Images Source
 
 Glutenberg Background
 http://www.imageif.com/images/white-parchment-paper-background-white-parchment-paper.jpg
+
+Github
+https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png
+
+Panda
+http://www.wxhaowen.com/img.jsp?id=740418&url=http%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FT5eTVVIIT774OGeVicJ9EtJQnu3jMBtsvOiaYr1KYfFV72B60kx5H1CM9WvFHZcbRiaib9IdQXrzicYiaAycHg4Vwnzw%2F0%3Fwx_fmt%3Djpeg
